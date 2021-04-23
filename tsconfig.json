@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": true,
+    "plugins": [
+      {
+        "name": "typescript-deno-plugin"
+      }
+    ],
+    "lib": ["deno.ns", "dom", "dom.iterable"]
+  },
+  "include": ["./src"]
+}
